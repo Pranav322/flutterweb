@@ -90917,7 +90917,7 @@ A.a0Q.prototype={
 Ac(a){return this.alD(a)},
 alD(a){var s=0,r=A.H(t.z),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e
 var $async$Ac=A.I(function(b,c){if(b===1){p=c
-s=q}while(true)switch(s){case 0:g=A.eM("http://162.215.175.94:8000/api/casts")
+s=q}while(true)switch(s){case 0:g=A.eM("https://api.theapix.in/api/casts")
 f=o.c
 f.toString
 k=A.fZ(f,!1,t.v1).c
@@ -90971,7 +90971,7 @@ return A.G($async$D8,r)},
 xt(a){return this.a_X(a)},
 a_X(a){var s=0,r=A.H(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g
 var $async$xt=A.I(function(b,c){if(b===1){p=c
-s=q}while(true)switch(s){case 0:h=A.eM("http://162.215.175.94:8000/api/castsbymovie/"+a)
+s=q}while(true)switch(s){case 0:h=A.eM("https://api.theapix.in/api/castsbymovie/"+a)
 q=3
 k=t.N
 s=6
@@ -91067,7 +91067,7 @@ J.aF1(m,"image",l,h)
 h=new XMLHttpRequest()
 h.toString
 k=h
-J.aFb(k,"POST","http://162.215.175.94:8000/api/image/upload")
+J.aFb(k,"POST","https://api.theapix.in/api/image/upload")
 j=new A.bh(new A.ao($.ah,t.pN),t._c)
 h=t._p
 A.W1(k,"load",new A.axu(k,j),!1,h)
@@ -91295,7 +91295,7 @@ al5(a,b){var s=0,r=A.H(t.y),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c
 var $async$zZ=A.I(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
 A.cL("hereee 1 ")
-k=A.eM("http://162.215.175.94:8000/api/episodes")
+k=A.eM("https://api.theapix.in/api/episodes")
 j=t.N
 i=A.aq(["Content-Type","application/json"],j,j)
 h=n.go[a]
@@ -91378,7 +91378,7 @@ var $async$xv=A.I(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 j=t.N
 s=6
-return A.O(A.aAq(A.eM("http://162.215.175.94:8000/api/getMovieEpisodes/"+A.k(o.dy)),A.aq(["Content-Type","application/json"],j,j)),$async$xv)
+return A.O(A.aAq(A.eM("https://api.theapix.in/api/getMovieEpisodes/"+A.k(o.dy)),A.aq(["Content-Type","application/json"],j,j)),$async$xv)
 case 6:n=b
 if(n.b===200){j=n
 m=B.at.r6(0,A.lF(A.lC(j.e).c.a.i(0,"charset")).cA(0,j.w),null)
@@ -91403,7 +91403,7 @@ var $async$xE=A.I(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 j=t.N
 s=6
-return A.O(A.aAq(A.eM("http://162.215.175.94:8000/api/videoDetail/"+A.k(o.dy)),A.aq(["Content-Type","application/json"],j,j)),$async$xE)
+return A.O(A.aAq(A.eM("https://api.theapix.in/api/videoDetail/"+A.k(o.dy)),A.aq(["Content-Type","application/json"],j,j)),$async$xE)
 case 6:n=b
 j=n
 A.cL("response video "+A.lF(A.lC(j.e).c.a.i(0,"charset")).cA(0,j.w))
@@ -91778,7 +91778,7 @@ var $async$tC=A.I(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 j=t.N
 s=6
-return A.O(A.aAq(A.eM("http://162.215.175.94:8000/api/get/only-movies"),A.aq(["Content-Type","application/json"],j,j)),$async$tC)
+return A.O(A.aAq(A.eM("https://api.theapix.in/api/get/only-movies"),A.aq(["Content-Type","application/json"],j,j)),$async$tC)
 case 6:n=b
 if(n.b===200){j=n
 m=B.at.r6(0,A.lF(A.lC(j.e).c.a.i(0,"charset")).cA(0,j.w),null)
@@ -91803,7 +91803,7 @@ alK(a){var s=0,r=A.H(t.y),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$Aj=A.I(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 A.cL("moview DATA "+a.eU().k(0))
-k=A.eM("http://162.215.175.94:8000/api/add/movie")
+k=A.eM("https://api.theapix.in/api/add/movie")
 j=t.N
 j=A.aq(["Content-Type","application/json"],j,j)
 s=7
@@ -91890,7 +91890,7 @@ J.aF1(n,"video",m,i)
 i=new XMLHttpRequest()
 i.toString
 l=i
-J.aFb(l,"POST","http://162.215.175.94:8000/api/videos/upload")
+J.aFb(l,"POST","https://api.theapix.in/api/videos/upload")
 k=new A.bh(new A.ao($.ah,t.pN),t._c)
 i=t._p
 A.W1(l,"load",new A.aft(l,k),!1,i)
@@ -91933,7 +91933,7 @@ f=J.at(j.i(a,"data"),"format")
 j=J.at(j.i(a,"data"),"thumbnailUrl")
 m=new A.FJ(b,i,h,null,g,f,j,J.kv(n)?J.q3(J.lL(n,new A.afr(),t.kp)):A.a([],t.UW))
 A.cL("hereee 1 ")
-j=A.eM("http://162.215.175.94:8000/api/videoDetail/add")
+j=A.eM("https://api.theapix.in/api/videoDetail/add")
 i=t.N
 i=A.aq(["Content-Type","application/json"],i,i)
 s=7
